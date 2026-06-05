@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --content-max: 900px;
+}
+
+html, body {
+  @apply min-h-screen bg-slate-50 text-slate-900;
+}
+
+.container {
+  max-width: var(--content-max);
+}
